@@ -20,14 +20,23 @@ button {
 }
 
 body {
-    font: Roboto;
+    font-family: "Roboto", sans-serif;
 }
 nav, .navy, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
+ul {
+    list-style-type: none;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 #header-logo {
     font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
 }
 h1 {
     font-size: 48px;
