@@ -5,8 +5,6 @@ html {
 }
 *, *:before, *:after {
     box-sizing: border-box;
-}
-* {
     margin: 0;
     padding: 0;
 }
@@ -19,4 +17,37 @@ img {
 }
 button {
     font: inherit;
+}
+
+body {
+    font: Roboto;
+}
+nav, .navy, footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+#header-logo {
+    font-size: 24px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text p {
+    color: #e5e7eb;
+}
+button {
+    background-color: #3882f6;
+    color: #f9f4f8;
+}
+.grey {
+    background-color: #e5e7eb;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+.callout-box {
+    background-color: #3882f6;
+    color: #f9f4f8;
 }
