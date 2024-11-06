@@ -38,16 +38,34 @@ ul {
     font-weight: 700;
     margin-right: auto;
 }
+.navy {
+    padding:72px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+.hero-text {
+    max-width: 550px;
+    flex: auto;
+}
 h1 {
     font-size: 48px;
     font-weight: 900;
 }
 .hero-text p {
     color: #e5e7eb;
+    margin-bottom: 16px;
 }
 button {
     background-color: #3882f6;
     color: #f9f4f8;
+    font-weight: 700;
+    padding: 4px 27px;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: none;
 }
 .grey {
     background-color: #e5e7eb;
