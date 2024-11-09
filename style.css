@@ -94,10 +94,28 @@ figure img {
 }
 .grey {
     background-color: #e5e7eb;
+    padding: 72px;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    max-width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 blockquote {
     font-size: 36px;
     font-style: italic;
+}
+.grey p {
+    font-weight: 700;
+    text-align: right;
+    align-self: end;
+    padding-right: 16px;
 }
 .callout-box {
     background-color: #3882f6;
