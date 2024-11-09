@@ -139,3 +139,7 @@ blockquote {
 .callout-box button {
     border: 2px solid #f9faf8;
 }
+footer {
+    padding: 16px;
+    text-align: center;
+}
